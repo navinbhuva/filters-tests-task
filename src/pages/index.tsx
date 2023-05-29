@@ -106,7 +106,7 @@ const Home: NextPageWithLayout = () => {
 
           <div className='bg-blue-50 py-5 px-3'>
             <div className='flex flex-col gap-1'>
-              <p>Code Settings</p>
+              <p className='font-medium'>Code Settings</p>
               <p className='text-gray-500'>You can change this later while exporting code</p>
               <div className='flex items-center gap-10 mt-3'>
                 {languageData.map(language => {
